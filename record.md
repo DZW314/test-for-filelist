@@ -1,9 +1,14 @@
 # TODO
 # Use Modules on Python
 1. Install Python Modules via visit https://docs.python.org/3/installing/index.html
-Install pip, and
-
+Install pip, and use command "pip install xxx" to install Python Module.
 2. Verify the installation results.
+
+# Test openpyxl
+http://www.python-excel.org/
+https://openpyxl.readthedocs.io/en/stable/
+
+
 
 # Finish
 ## git by Atom.
