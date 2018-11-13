@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ibmupdate.xsl"?>
+<!DOCTYPE CIM SYSTEM "cimv20.dtd">
+<CIM CIMVERSION="2.0" DTDVERSION="2.0">
+   <MESSAGE ID="1" PROTOCOLVERSION="1.0">
+      <SIMPLEREQ>
+         <IMETHODCALL NAME="CreateInstance">
+            <LOCALNAMESPACEPATH>
+               <NAMESPACE NAME="root"/>
+               <NAMESPACE NAME="cimv2"/>
+            </LOCALNAMESPACEPATH>
+            <IPARAMVALUE NAME="NewInstance">
+               <INSTANCE CLASSNAME="IBMPSG_SystemUpdateElement">
+                  <PROPERTY NAME="Name" TYPE="string">
+                     <VALUE>ThinkSystem M.2 with Mirroring Enablement Kit Firmware Update For Anyos</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="SoftwareElementID" TYPE="string">
+                     <VALUE>2.3.</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="SoftwareElementState" TYPE="uint16">
+                     <VALUE>1</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="TargetOperatingSystem" TYPE="uint16">
+                     <VALUE>0</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="Version" TYPE="string">
+                     <VALUE>Version 2.3.10.1098 -[2.3.10.1098-2.3.10.1098]-</VALUE>
+                  </PROPERTY>
+                  <PROPERTY.ARRAY NAME="applicableMachineTypes" TYPE="string">
+                     <VALUE.ARRAY>
+                        <VALUE>HX Series-[7X82]-</VALUE>
+                        <VALUE>HX Series-[7X83]-</VALUE>
+                        <VALUE>HX Series-[7X84]-</VALUE>
+                        <VALUE>HX Series-[7Y88]-</VALUE>
+                        <VALUE>HX Series-[7Y89]-</VALUE>
+                        <VALUE>HX Series-[7Y90]-</VALUE>
+                        <VALUE>HX Series-[7Y95]-</VALUE>
+                        <VALUE>HX Series-[7Y96]-</VALUE>
+                        <VALUE>HX Series-[7Z03]-</VALUE>
+                        <VALUE>HX Series-[7Z04]-</VALUE>
+                        <VALUE>HX Series-[7Z05]-</VALUE>
+                        <VALUE>HX Series-[7Z06]-</VALUE>
+                        <VALUE>HX Series-[7Z07]-</VALUE>
+                        <VALUE>HX Series-[7Z08]-</VALUE>
+                        <VALUE>HX Series-[7Z09]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SD530-[7X21]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SN550 Server-[7X16]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SN850 Server-[7X15]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR530 Server-[7X07]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR530 Server-[7X08]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR550 Server-[7X03]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR550 Server-[7X04]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR630 Server-[7X01]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR630 Server-[7X02]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR650 Server-[7X05]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR650 Server-[7X06]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR670-[7Y36]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR670-[7Y37]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR670-[7Y38]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR850-[7X18]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR850-[7X19]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR860-[7X69]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR860-[7X70]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR950 Server-[7X11]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR950 Server-[7X12]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem SR950 Server-[7X13]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem ST550 Server-[7X09]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem ST550 Server-[7X10]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem ST558 Server-[7Y15]-</VALUE>
+                        <VALUE>Lenovo ThinkSystem ST558 Server-[7Y16]-</VALUE>
+                        <VALUE>Lenovo Thinksystem SR570 Server-[7Y02]-</VALUE>
+                        <VALUE>Lenovo Thinksystem SR570 Server-[7Y03]-</VALUE>
+                        <VALUE>Lenovo Thinksystem SR590 Server-[7X98]-</VALUE>
+                        <VALUE>Lenovo Thinksystem SR590 Server-[7X99]-</VALUE>
+                        <VALUE>ThinkAgile MX Certified Nodes-[7Z20]-</VALUE>
+                        <VALUE>ThinkAgile VX Series-[7Y13]-</VALUE>
+                        <VALUE>ThinkAgile VX Series-[7Y14]-</VALUE>
+                        <VALUE>ThinkAgile VX Series-[7Y92]-</VALUE>
+                        <VALUE>ThinkAgile VX Series-[7Y93]-</VALUE>
+                        <VALUE>ThinkAgile VX Series-[7Y94]-</VALUE>
+                        <VALUE>ThinkAgile VX3720-[7Y12]-</VALUE>
+                        <VALUE>ThinkSystem SD650 DWC Dual Node Tray-[7X58]-</VALUE>
+                     </VALUE.ARRAY>
+                  </PROPERTY.ARRAY>
+                  <PROPERTY.ARRAY NAME="applicableOperatingSystems" TYPE="string">
+                     <VALUE.ARRAY>
+                        <VALUE>NONE</VALUE>
+                        <VALUE>Other</VALUE>
+                     </VALUE.ARRAY>
+                  </PROPERTY.ARRAY>
+                  <PROPERTY NAME="buildNumber" TYPE="string">
+                     <VALUE>2.3.10.1098</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="description" TYPE="string">
+                     <VALUE>ThinkSystem M.2 with Mirroring Enablement Kit Firmware Update For Anyos</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="ibmSchemaVersion" TYPE="string">
+                     <VALUE>3.1</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="identificationCode" TYPE="string">
+                     <VALUE>lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="installCommandLine" TYPE="string">
+                     <VALUE>uxspi up -e all -i lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch.uxz -s all -u --latest --ignore-req</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="installDirectory" TYPE="string">
+                     <VALUE>.</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="installationNotes" TYPE="string">
+                     <VALUE>Firmware update.</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="installLog" TYPE="string">
+                     <VALUE>.</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="languageEdition" TYPE="string">
+                     <VALUE>All</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="manufacturer" TYPE="string">
+                     <VALUE>Lenovo</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="rebootRequired" TYPE="uint8">
+                     <VALUE>3</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="regions" TYPE="string">
+                     <VALUE>Worldwide</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="releaseDate" TYPE="datetime">
+                     <VALUE>20181026000000.000000-300</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="revisionHistory" TYPE="string">
+                     <VALUE>See Change History file</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="severity" TYPE="uint8">
+                     <VALUE>2</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="unattendedInstallCommandLine" TYPE="string">
+                     <VALUE>uxspi up -e all -i lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch.uxz -s all -u --latest --ignore-req</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="unattendedUninstallCommandLine" TYPE="string">
+                     <VALUE>Not Supported</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="uninstallCommandLine" TYPE="string">
+                     <VALUE>Not Supported</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="type" TYPE="uint16">
+                     <VALUE>1</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="category" TYPE="string">
+                     <VALUE>m2raid</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="crc" TYPE="string">
+                     <VALUE>23e5479e</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="size" TYPE="uint32">
+                     <VALUE>276</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="readme" TYPE="string">
+                     <VALUE>lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch.txt</VALUE>
+                  </PROPERTY>
+                  <PROPERTY.ARRAY NAME="driverFiles" TYPE="string">
+                     <VALUE.ARRAY>
+                        <VALUE>1D490300-#2.3.10.1193</VALUE>
+                        <VALUE>1B4B9230-#2.3.10.1193</VALUE>
+                     </VALUE.ARRAY>
+                  </PROPERTY.ARRAY>
+                  <PROPERTY.ARRAY NAME="driverFilesClassification" TYPE="uint32">
+                     <VALUE.ARRAY>
+                        <VALUE>10</VALUE>
+                        <VALUE>10</VALUE>
+                     </VALUE.ARRAY>
+                  </PROPERTY.ARRAY>
+                  <PROPERTY NAME="xmlFilename" TYPE="string">
+                     <VALUE>lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch.xml</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="unpack" TYPE="uint16">
+                     <VALUE>0</VALUE>
+                  </PROPERTY>
+                  <PROPERTY.ARRAY NAME="orderedMachineTypeList" TYPE="string">
+                     <VALUE.ARRAY>
+                        <VALUE>7Y16</VALUE>
+                        <VALUE>7X11</VALUE>
+                        <VALUE>7X99</VALUE>
+                        <VALUE>7Y96</VALUE>
+                        <VALUE>7Z05</VALUE>
+                        <VALUE>7X15</VALUE>
+                        <VALUE>7Y36</VALUE>
+                        <VALUE>7X03</VALUE>
+                        <VALUE>7Y12</VALUE>
+                        <VALUE>7Y88</VALUE>
+                        <VALUE>7X83</VALUE>
+                        <VALUE>7Y92</VALUE>
+                        <VALUE>7X08</VALUE>
+                        <VALUE>7X12</VALUE>
+                        <VALUE>7Z06</VALUE>
+                        <VALUE>7X16</VALUE>
+                        <VALUE>7Y37</VALUE>
+                        <VALUE>7X04</VALUE>
+                        <VALUE>7Y13</VALUE>
+                        <VALUE>7Y89</VALUE>
+                        <VALUE>7X84</VALUE>
+                        <VALUE>7Y93</VALUE>
+                        <VALUE>7X09</VALUE>
+                        <VALUE>7Z03</VALUE>
+                        <VALUE>7X13</VALUE>
+                        <VALUE>7X01</VALUE>
+                        <VALUE>7Y90</VALUE>
+                        <VALUE>7Z07</VALUE>
+                        <VALUE>7Y38</VALUE>
+                        <VALUE>7X05</VALUE>
+                        <VALUE>7Y14</VALUE>
+                        <VALUE>7Y02</VALUE>
+                        <VALUE>7X69</VALUE>
+                        <VALUE>7X21</VALUE>
+                        <VALUE>7Y94</VALUE>
+                        <VALUE>7Z04</VALUE>
+                        <VALUE>7X02</VALUE>
+                        <VALUE>7Z20</VALUE>
+                        <VALUE>7X82</VALUE>
+                        <VALUE>7X70</VALUE>
+                        <VALUE>7Z08</VALUE>
+                        <VALUE>7X18</VALUE>
+                        <VALUE>7X06</VALUE>
+                        <VALUE>7Y15</VALUE>
+                        <VALUE>7Y03</VALUE>
+                        <VALUE>7X58</VALUE>
+                        <VALUE>7X10</VALUE>
+                        <VALUE>7X98</VALUE>
+                        <VALUE>7Y95</VALUE>
+                        <VALUE>7Z05</VALUE>
+                        <VALUE>7Y36</VALUE>
+                        <VALUE>7X15</VALUE>
+                        <VALUE>7X03</VALUE>
+                        <VALUE>7Y12</VALUE>
+                        <VALUE>7Y88</VALUE>
+                        <VALUE>7X83</VALUE>
+                        <VALUE>7Y92</VALUE>
+                        <VALUE>7Z09</VALUE>
+                        <VALUE>7X19</VALUE>
+                        <VALUE>7X07</VALUE>
+                        <VALUE>7Y16</VALUE>
+                        <VALUE>7X11</VALUE>
+                        <VALUE>7X99</VALUE>
+                        <VALUE>7Y96</VALUE>
+                        <VALUE>7Z06</VALUE>
+                        <VALUE>7Y37</VALUE>
+                        <VALUE>7X16</VALUE>
+                        <VALUE>7X04</VALUE>
+                        <VALUE>7Y13</VALUE>
+                        <VALUE>7Y89</VALUE>
+                        <VALUE>7X84</VALUE>
+                        <VALUE>7Y93</VALUE>
+                        <VALUE>7X08</VALUE>
+                        <VALUE>7X12</VALUE>
+                        <VALUE>7Z07</VALUE>
+                        <VALUE>7Y38</VALUE>
+                        <VALUE>7X05</VALUE>
+                        <VALUE>7Y14</VALUE>
+                        <VALUE>7X69</VALUE>
+                        <VALUE>7Y02</VALUE>
+                        <VALUE>7X21</VALUE>
+                        <VALUE>7Y94</VALUE>
+                        <VALUE>7X09</VALUE>
+                        <VALUE>7Z03</VALUE>
+                        <VALUE>7X13</VALUE>
+                        <VALUE>7X01</VALUE>
+                        <VALUE>7Z08</VALUE>
+                        <VALUE>7X18</VALUE>
+                        <VALUE>7X06</VALUE>
+                        <VALUE>7Y90</VALUE>
+                        <VALUE>7Y15</VALUE>
+                        <VALUE>7Y03</VALUE>
+                        <VALUE>7X58</VALUE>
+                        <VALUE>7X10</VALUE>
+                        <VALUE>7X98</VALUE>
+                        <VALUE>7Y95</VALUE>
+                        <VALUE>7Z04</VALUE>
+                        <VALUE>7X02</VALUE>
+                        <VALUE>7Z20</VALUE>
+                        <VALUE>7Z09</VALUE>
+                        <VALUE>7X19</VALUE>
+                        <VALUE>7X82</VALUE>
+                        <VALUE>7X07</VALUE>
+                        <VALUE>7X70</VALUE>
+                     </VALUE.ARRAY>
+                  </PROPERTY.ARRAY>
+                  <PROPERTY.ARRAY NAME="orderedOSList" TYPE="uint32">
+                     <VALUE.ARRAY>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>402</VALUE>
+                     </VALUE.ARRAY>
+                  </PROPERTY.ARRAY>
+                  <PROPERTY.ARRAY NAME="orderedOSArchitectureList" TYPE="uint32">
+                     <VALUE.ARRAY>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                        <VALUE>0</VALUE>
+                     </VALUE.ARRAY>
+                  </PROPERTY.ARRAY>
+                  <PROPERTY NAME="payload" TYPE="string">
+                     <VALUE>lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch.uxz</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="crcType" TYPE="uint32">
+                     <VALUE>2</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="timestamp" TYPE="datetime">
+                     <VALUE>20181026023550.000000-300</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="revisionHistoryFile" TYPE="string">
+                     <VALUE>lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch.chg</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="updateSelection" TYPE="string">
+                     <VALUE>auto</VALUE>
+                  </PROPERTY>
+                  <PROPERTY NAME="oobSupport" TYPE="uint32">
+                     <VALUE>4</VALUE>
+                  </PROPERTY>
+               </INSTANCE>
+            </IPARAMVALUE>
+         </IMETHODCALL>
+      </SIMPLEREQ>
+   </MESSAGE>
+</CIM>
