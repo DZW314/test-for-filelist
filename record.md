@@ -4,6 +4,9 @@
 Install pip, and use command "pip install xxx" to install Python Module.
 2. Verify the installation results.
 
+3. crc32 check
+Search all the files which need to check by crc32. Merge them into a list and sort.
+
 # Test openpyxl
 http://www.python-excel.org/
 https://openpyxl.readthedocs.io/en/stable/
