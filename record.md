@@ -10,6 +10,7 @@ Search all the files which need to check by crc32. Merge them into a list and so
 # Test openpyxl
 http://www.python-excel.org/
 https://openpyxl.readthedocs.io/en/stable/
+https://openpyxl.readthedocs.io/en/stable/tutorial.html
 
 
 
