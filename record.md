@@ -1,31 +1,32 @@
 # TODO
-# Use Modules on Python
-1. Install Python Modules via visit https://docs.python.org/3/installing/index.html
+## Use Modules on Python
+1. Install Python Modules via visit https://docs.python.org/3/installing/index.html <br>
 Install pip, and use command "pip install xxx" to install Python Module.
 2. Verify the installation results.
-
-3. crc32 check
+3. CRC32 Check<br>
 Search all the files which need to check by crc32. Merge them into a list and sort.
 
-# Test openpyxl
-http://www.python-excel.org/
-https://openpyxl.readthedocs.io/en/stable/
+## Test openpyxl
+http://www.python-excel.org/ <br>
+https://openpyxl.readthedocs.io/en/stable/ <br>
 https://openpyxl.readthedocs.io/en/stable/tutorial.html
 
-#Learn XML
-The syntax rules for XML is very simple and logical. Learn and use them are very easy.
-. XML must include a root element, it is the parent of all other elements.
-. Define <?xml version="1.0" encoding="utf-8"?>
-. XML elements must have a closing tag.
-. Tag is case sensitive.
-. Element must nest rightly: "<b><i>True</i></b>" "<b><i>False</b></i>"
-. Attribute value must be quoted.
-. Special characters:
-    &lt;	  <	   less than
-    &gt;	  >	   greater than
-    &amp;	  &    ampersand
-    &apos;	'	   apostrophe
-    &quot;	"	   quotation mark
+## Learn XML
+The syntax rules for XML is very simple and logical. Learn and use them are very easy.<br>
+* XML must include a root element, it is the parent of all other elements.
+* Define <?xml version="1.0" encoding="utf-8"?>
+* XML elements must have a closing tag.
+* Tag is case sensitive.
+* Element must nest rightly: "&lt;b>&lt;i>True&lt;/i>&lt;/b>" "&lt;b>&lt;i>False&lt;/b>&lt;/i>"
+* Attribute value must be quoted.
+* Special characters:<br>
+| quoto      | symbol | explanation    |
+| ---------- | ------ | -------------- |
+| &amp;lt;   | &lt;   | less than      |
+| &amp;gt;   | &gt;   | greater than   |
+| &amp;amp;  | &amp;  | ampersand      |
+| &amp;apos; | '      | apostrophe     |
+| &amp;quot; | "      | quotation mark |
 . Comment: <!-- This is a comment -->
 
 
