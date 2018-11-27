@@ -12,6 +12,22 @@ http://www.python-excel.org/
 https://openpyxl.readthedocs.io/en/stable/
 https://openpyxl.readthedocs.io/en/stable/tutorial.html
 
+#Learn XML
+The syntax rules for XML is very simple and logical. Learn and use them are very easy.
+. XML must include a root element, it is the parent of all other elements.
+. Define <?xml version="1.0" encoding="utf-8"?>
+. XML elements must have a closing tag.
+. Tag is case sensitive.
+. Element must nest rightly: "<b><i>True</i></b>" "<b><i>False</b></i>"
+. Attribute value must be quoted.
+. Special characters:
+    &lt;	  <	   less than
+    &gt;	  >	   greater than
+    &amp;	  &    ampersand
+    &apos;	'	   apostrophe
+    &quot;	"	   quotation mark
+. Comment: <!-- This is a comment -->
+
 
 
 # Finish
