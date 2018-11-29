@@ -12,6 +12,7 @@ https://openpyxl.readthedocs.io/en/stable/ <br>
 https://openpyxl.readthedocs.io/en/stable/tutorial.html
 
 ## Learn XML
+### XML syntax
 The syntax rules for XML is very simple and logical. Learn and use them are very easy.<br>
 * XML must include a root element, it is the parent of all other elements.
 * Define <?xml version="1.0" encoding="utf-8"?>
@@ -20,15 +21,17 @@ The syntax rules for XML is very simple and logical. Learn and use them are very
 * Element must nest rightly: "&lt;b>&lt;i>True&lt;/i>&lt;/b>" "&lt;b>&lt;i>False&lt;/b>&lt;/i>"
 * Attribute value must be quoted.
 * Special characters:<br>
-| quoto      | symbol | explanation    |
-| ---------- | ------ | -------------- |
-| &amp;lt;   | &lt;   | less than      |
-| &amp;gt;   | &gt;   | greater than   |
-| &amp;amp;  | &amp;  | ampersand      |
-| &amp;apos; | '      | apostrophe     |
-| &amp;quot; | "      | quotation mark |
-. Comment: <!-- This is a comment -->
-
+| quoto      | symbol | explanation    |<br>
+| ---------- | ------ | -------------- |<br>
+| &amp;lt;   | &lt;   | less than      |<br>
+| &amp;gt;   | &gt;   | greater than   |<br>
+| &amp;amp;  | &amp;  | ampersand      |<br>
+| &amp;apos; | '      | apostrophe     |<br>
+| &amp;quot; | "      | quotation mark |<br>
+* Comment: <!-- This is a comment -->
+* In XML, Multiple consecutive spaces will be saved.
+* (LF) is used replace (CR)(LF).
+### XML elements
 
 
 # Finish
