@@ -13,7 +13,7 @@ https://openpyxl.readthedocs.io/en/stable/tutorial.html
 
 ## Learn XML
 ### XML syntax
-The syntax rules for XML is very simple and logical. Learn and use them are very easy.<br>
+The syntax rules for XML is very simple and logical. Learning and using them are very easy.<br>
 * XML must include a root element, it is the parent of all other elements.
 * Define <?xml version="1.0" encoding="utf-8"?>
 * XML elements must have a closing tag.

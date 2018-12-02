@@ -4,7 +4,8 @@ from zlib import crc32
 import sys
 import glob
 import logging
-def getCrc32(filename): # calculate crc32
+import xml.etree.ElementTree as ET
+def GetCrc32(filename): # calculate crc32
     with open(filename, 'rb') as f:
         return crc32(f.read())
 
@@ -48,12 +49,22 @@ ws4 = wb.create_sheet("suse12")
 #Check all packages by crc32
 row = 1
 for n in sortFile:
-    crc = format(getCrc32(n), 'x')
-    print('{:s} {:8} {:s}'.format( n,' crc32: ', crc))
-    logging.info('{:s} {:8} {:s}'.format( n,' crc32: ', crc))
+    crcpkg = format(GetCrc32(n), 'x')
+    print('{:s} {:8} {:s}'.format( n,' crc32: ', crcpkg))
+    logging.info('{:s} {:8} {:s}'.format( n,' crc32: ', crcpkg))
+    len(n)
+    tree = ET.parse(".xml")
+    print(tree.getroot())
+    root = tree.getroot()
+    crcxml = root.findall(".//*[@NAME='crc']/VALUE")
+    for tpm in crcxml:
+        print(tpm.text)
+        ws.cell(column=3, row=row, value=tpm.text)
     ws.cell(column=1, row=row, value=n)
-    ws.cell(column=2, row=row, value=crc)
+    ws.cell(column=2, row=row, value=crcpkg)
+
     row = row + 1
+
 wb.save("sample.xlsx")
 logging.info("Mission Completed!")
 # result =  'crc32.txt'

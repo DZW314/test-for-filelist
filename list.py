@@ -1,3 +1,17 @@
+import xml.etree.ElementTree as ET
+tree = ET.parse("./brcm-lnvgy_fw_cna_18b-oc14-12.0.1169.12-2_linux_x86-64.xml")
+print(tree.getroot())
+root = tree.getroot()
+crc = root.findall(".//*[@NAME='crc']/VALUE")
+for value in crc:
+    print(value.text)
+
+
+
+
+
+
+
 # import os
 # from  openpyxl import Workbook
 # import datetime
@@ -6,7 +20,7 @@
 # filePath = os.path.abspath('.')
 # print(system)
 # print(filePath)
-# 
+#
 # wb = Workbook()
 # ws = wb.active
 # ws.title = "platform"
