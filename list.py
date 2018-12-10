@@ -1,13 +1,23 @@
-import xml.etree.ElementTree as ET
-tree = ET.parse("./brcm-lnvgy_fw_cna_18b-oc14-12.0.1169.12-2_linux_x86-64.xml")
-print(tree.getroot())
-root = tree.getroot()
-crc = root.findall(".//*[@NAME='crc']/VALUE")
-for value in crc:
-    print(value.text)
 
+import glob
+# import xml.etree.ElementTree as ET
+# tree = ET.parse("./brcm-lnvgy_fw_cna_18b-oc14-12.0.1169.12-2_linux_x86-64.xml")
+# print(tree.getroot())
+# root = tree.getroot()
+# crc = root.findall(".//*[@NAME='crc']/VALUE")
+# for value in crc:
+#     print(value.text)
 
+def strnset(str,ch,n): # string change
+    str = str[:n] + ch
+    return str
+ll = []
+listuxz = glob.glob("./*/*.uxz")
+for tpm in listuxz:
+    ll.append(strnset(tpm,".xml",-4))
 
+for tt in ll:
+    print(tt)
 
 
 

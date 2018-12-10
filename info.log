@@ -26,3 +26,24 @@
 2018-12-02 13:39:52,930 - INFO - ./driver/2.uxz  crc32:  23e5479e
 2018-12-02 13:39:52,947 - INFO - ./driver/lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch.uxz  crc32:  23e5479e
 2018-12-02 13:39:52,975 - INFO - Mission Completed!
+2018-12-10 16:44:29,155 - INFO - Start search all files in Packages.
+2018-12-10 16:44:29,160 - INFO - Finish searching.
+2018-12-10 16:44:29,160 - INFO - Sorting the list...
+2018-12-10 16:44:29,198 - INFO - .\driver\1.uxz  crc32:  23e5479e
+2018-12-10 16:44:29,200 - INFO - .\driver\2.uxz  crc32:  23e5479e
+2018-12-10 16:44:29,253 - INFO - .\driver\lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch.uxz  crc32:  23e5479e
+2018-12-10 16:44:29,294 - INFO - Mission Completed!
+2018-12-10 16:44:58,913 - INFO - Start search all files in Packages.
+2018-12-10 16:44:58,915 - INFO - Finish searching.
+2018-12-10 16:44:58,915 - INFO - Sorting the list...
+2018-12-10 16:44:58,919 - INFO - .\driver\1.uxz  crc32:  23e5479e
+2018-12-10 16:44:58,920 - INFO - .\driver\2.uxz  crc32:  23e5479e
+2018-12-10 16:44:58,923 - INFO - .\driver\lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch.uxz  crc32:  23e5479e
+2018-12-10 16:44:58,940 - INFO - Mission Completed!
+2018-12-10 16:47:18,657 - INFO - Start search all files in Packages.
+2018-12-10 16:47:18,660 - INFO - Finish searching.
+2018-12-10 16:47:18,660 - INFO - Sorting the list...
+2018-12-10 16:47:18,665 - INFO - .\driver\1.uxz  crc32:  23e5479e
+2018-12-10 16:47:18,667 - INFO - .\driver\2.uxz  crc32:  23e5479e
+2018-12-10 16:47:18,670 - INFO - .\driver\lnvgy_fw_m2raid_2.3.10.1098_anyos_noarch.uxz  crc32:  23e5479e
+2018-12-10 16:47:18,695 - INFO - Mission Completed!
