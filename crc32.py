@@ -72,7 +72,7 @@ for n in sortFile:
 
     row = row + 1
 
-wb.save("sample.xlsx")
+wb.save("compareCRC.xlsx")
 logging.info("Mission Completed!")
 # result =  'crc32.txt'
 # f = open ('./' + result,'w')
